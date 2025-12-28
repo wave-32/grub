@@ -1,2 +1,80 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    </head>
+    <body>
+
+        <nav class="bg-amber-500 text-white p-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Pasta world</h1>
+            <ul class="flex gap-6">
+                <li><a href="#" class="hover:underline">Home</a></li>
+                <li><a href="#" class="hover:underline">Facts</a></li>
+                <li><a href="#" class="hover:underline">Gallery</a></li>
+            </ul>
+        </nav>
+        
+        <h1 class="text-blue-300"> This is my website! </h1>
+        <p class ="text-green-300"> Here are some facts about pasta! </p>
+        <div class="bg-lime-400"></div>
+        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Delicious Pasta"
+        class="w-96 mx-auto rounded-xl shadow-lg">
+        
+    
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+            <h2 class = "text-xl font-serif underline"> Fun facts about the greatest food in the world: PASTA!</h2>
+            
+                <div class="bg-yellow-100 p-4 rounded shadow"> 
+                    There are over 600 different shapes of pasta!
+                </div>
+                <div class="bg-yellow-100 p-4 rounded shadow"> Most people think Pasta originated in Italy, but it acctually comes from China!</div>
+                <div class="bg-yellow-100 p-4 rounded shadow"> Pasta is abundant in carbohydrates, making it a powerful source of energy!</div>
+                <div class="bg-yellow-100 p-4 rounded shadow"> The word Pasta means paste in Italian, refering to the dough used to make it.</div>
+                <div class="bg-yellow-100 p-4 rounded shadow"> Pasta in italy is served as a first course, not the main course.</div>
+           
+        </div>
+
+
+        <div class="bg-lime-400 p-6 text-center text-white font-bold text-lg mt-4 rounded">
+            Pasta is life!
+        </div>
+        
+        <h3 class="text-lg font-bold"> Press on the button for a surprise</h3>
+        <button class="bg-pink-500 hover:bg-pink-700 text-white font-bold py-2 px-4 rounded"
+        onclick="alert('SURPRISE! Pasta is the best food in the world')"> Click me! </button>
+
+        <div class="flex min-h-screen">
+            <aside class="w-64 bg-gray-200 p-4">
+            <h2 class="font-bold text-2xl m-4">Quick links</h2>
+            <ul class="space-y-2" >
+                <li><a href="#home" class="text-blue-500 hover:underline">Home</a></li>
+                <li><a href="#pasta-facts" class="text-blue-500 hover:underline">Pasta facts</a></li>
+                <li><a href="#pasta-gallery" class="text-blue-500 hover:underline">Pasta Gallery</a></li>
+            </ul>
+            </aside>
+            <main class="flex-1 p-6">
+                <h1 class="text-blue-300"> This is my website! </h1>
+                <p class ="text-green-300"> Here are some facts about pasta! </p>
+                <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?q=80&w=1760&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Tasty Pasta" class="w-96 mx-auto rounded-xl shadow-lg">
+            </main>
+        </div>
+
+
+        <footer class="bg-gray-800 text-white p-4 text-center">
+            <p> This website was built with Tailwind CSS</p>
+        </footer>
+    </body>
+
+
+
+
+
+
+
+
+    </html>
+
+
+
